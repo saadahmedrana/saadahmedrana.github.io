@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest is &nbsp;
+              My field of Interest is&nbsp;
               <i>
                 <b className="purple">Robotics control</b> and
                 building smart technology for{" "}
@@ -43,7 +43,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="Saad Ahmed Rana" />
             </Tilt>
           </Col>
         </Row>

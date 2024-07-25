@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt="Saad Ahmed Rana" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

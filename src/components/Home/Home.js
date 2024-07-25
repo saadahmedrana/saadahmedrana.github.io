@@ -34,7 +34,7 @@ function Home() {
               <div className="avatar-container">
                 <img
                   src={google_saad}
-                  alt="saad-avatar"
+                  alt="Saad Ahmed Rana"
                   className="avatar" 
                 />
               </div>

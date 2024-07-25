@@ -24,6 +24,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={UAV}
+              alt="Saad Ahmed Rana"
               isBlog={false}
               title="Autnomous UAV"
               description="International Bronze and TL 15,000 winning fully autonomous Unmanned Aerial Vehicle (UAV) for smart agriculture. The UAV prototype was rigorously tested in the international competition TeknoFest 22', the finals of which were held in Turkey."
@@ -35,6 +36,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
              imgPath={ROS22}
+             alt="Saad Ahmed Rana"
              isBlog={false}
              title="Voice activated Robot"
              description="This project features a voice-controlled robot model that uses ROS2 and the Alexa Skills Kit (ASK) SDK. The project aims at domesticating robots by making them easier to navigate and control. "
@@ -46,6 +48,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
              imgPath={openCV}
+             alt="Saad Ahmed Rana"
              isBlog={false}
              title="Computer Vision"
              description="This is a hand detection and tracking module that counts the number of fingers open for any number of hands on the stream. The project is being extended to detect sign language gestures for making a sign to speech model."
@@ -59,6 +62,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MATLAB}
+              alt="Saad Ahmed Rana"
               isBlog={false}
               title="Para thrust"
               description="This application, developed in the MATLAB environment, performs a parametric and performance analysis of a turbo-jet engine. The project was funded by the government of Pakistan and completed according to the guidelines of the NASA Systems Engineering Handbook. "
@@ -70,6 +74,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={moveIT}
+              alt="Saad Ahmed Rana"
               isBlog={false}
               title="Path planning in ROS2"
               description="This project plans the trajectory of a robot URDF model for doemstic robot as it picks up objetcs and places to a predecided place. moveIT is used in ROS2 to visualize in cartesian coordinates and then the code runs the simulation in quaternion coordinates in the background. "
@@ -81,6 +86,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ML}
+              alt="Saad Ahmed Rana"
               isBlog={false}
               title="Deep-Q Learning"
               description="
