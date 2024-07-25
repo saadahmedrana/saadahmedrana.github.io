@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New styles for the profile picture */
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; /* Adjust as needed */
+}
+
+.avatar {
+  border-radius: 50%; /* Makes the image circular */
+  border: 3px solid #9b59b6; /* Neon purple border */
+  box-shadow: 0 0 10px rgba(41, 3, 56, 0.6); /* Optional: Neon glow effect */
+  width: 300px; /* Ensure width is set */
+  height: 300px; /* Ensure height matches width for a perfect circle */
+  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+  margin-top: 30px;
+}
