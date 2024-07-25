@@ -37,7 +37,7 @@ console.log(today); // Outputs today's date in YYYY-MM-DD format
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/saadisfaction"
+                href="https://github.com/saadahmedrana"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
