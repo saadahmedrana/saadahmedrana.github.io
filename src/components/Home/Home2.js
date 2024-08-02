@@ -19,7 +19,7 @@ function Home2() {
               MY <span className="purple"> INTRODUCTION </span> 
             </h1>
             <p className="home-about-body">
-              I love automating day-to-day tasks!
+              I love automating day-to-day tasks with Robotics and AI
               <br />
               <br />I have done several mechatronics projects in
               <i>
