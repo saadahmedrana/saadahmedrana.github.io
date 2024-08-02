@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               <div className="custom-line">
-                This robot guides you to My Projects and Resume 
+                Check out my Projects and Resume from the right top
                 <b className="purple"> TABS</b> <span role="img" aria-label="pointing up right">👉🏽</span>
               </div>
             </p>
