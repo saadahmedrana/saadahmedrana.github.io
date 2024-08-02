@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/robot1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import './Home2.css'; // Make sure to import your CSS file
 
 function Home2() {
   return (
@@ -19,26 +20,28 @@ function Home2() {
               MY <span className="purple"> INTRODUCTION </span> 
             </h1>
             <p className="home-about-body">
-              I love automating day-to-day tasks with Robotics and AI
+              I love automating day-to-day tasks with Robotics and AI!
               <br />
-              <br />I have done several mechatronics projects in
+              <br />Languages I code in:
               <i>
-                <b className="purple"> Python and C++ </b>
+                <b className="purple"> Python | C++ | HTML | JS | CSS | C# | MATLAB | Arduino. </b>
               </i>
               <br />
               <br />
-              My field of Interest is&nbsp;
+              Worked with: &nbsp;
               <i>
-                <b className="purple">Robotics control</b> and
-                building smart technology for{" "}
+                <b className="purple">ROS2 | Gazebo | MoveIT | OpenCV | AWS ASK SDK | ReactJS | NodeJS | Typescript | TensorFlow | JupyterNotebook</b> and
+                {" "}
                 <b className="purple">
-                automation.
+                MediaPipe.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also try to build projects from scratch and experiment in
-              <b className="purple"> ROS2</b>
+              <div className="custom-line">
+                This robot guides you to My Projects and Resume 
+                <b className="purple"> TABS</b> <span role="img" aria-label="pointing up right">👉🏽</span>
+              </div>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -91,4 +94,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

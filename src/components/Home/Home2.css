@@ -1,0 +1,21 @@
+.myAvtar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .myAvtar img {
+    margin-left: 1px; /* Adjust as needed */
+    margin-top: 110px;  /* Adjust as needed */
+  }
+  .custom-line {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid #41015b; /* Customize the color and thickness */
+    margin-top: 20px; /* Space above the line */
+    left: 360px; /* Move the line right (positive value) */
+    /* right: 20px; */ /* Uncomment to move the line left (positive value) */
+  }
+  
+  
