@@ -39,8 +39,8 @@ function Home2() {
               <br />
               <br />
               <div className="custom-line">
-                Check out my Projects and Resume from the right top
-                <b className="purple"> TABS</b> <span role="img" aria-label="pointing up right">👉🏽</span>
+                Check out my Projects and Resume from the tabs
+                <b className="purple"> ABOVE</b>
               </div>
             </p>
           </Col>

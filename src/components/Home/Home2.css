@@ -34,4 +34,9 @@
       right: auto; /* Remove right positioning */
     }
   }
+  .pointing-up-icon {
+    font-size: 1.5em; /* Adjust size as needed */
+    color: #41015b; /* Match the color with your existing icons */
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
   
