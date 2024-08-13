@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import moveIT from "../../Assets/Projects/moveIT.png";
-import ML from "../../Assets/Projects/ML.png";
+import Pantry from "../../Assets/Projects/Pantry.png";
 import MATLAB from "../../Assets/Projects/MATLAB.png";
 import UAV from "../../Assets/Projects/UAV.jpg";
 import ROS22 from "../../Assets/Projects/ROS22.png";
@@ -47,15 +47,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-             imgPath={openCV}
+             imgPath={Pantry}
              alt="Saad Ahmed Rana"
              isBlog={false}
-             title="Computer Vision"
-             description="This is a hand detection and tracking module that counts the number of fingers open for any number of hands on the stream. The project is being extended to detect sign language gestures for making a sign to speech model."
-             ghLink="https://drive.google.com/drive/folders/1MkFPLrYuMmITa5wryXUymGWyD_lU5MKk?usp=drive_link"
-  
-            
-              //demoLink="https://editor.soumya-jit.tech/"              
+             title="Inventory Management System"
+             description="Pantry Tracker is an intuitive inventory management system built with ReactJS and deployed on Vercel. This app leverages Firebase for backend data storage, enabling users to effortlessly add, track, and adjust pantry items. It's a seamless solution for efficient inventory management."
+             ghLink="https://pantry-tracker-saad-c2lurmru2-saad-ahmed-ranas-projects.vercel.app"
+             demoLink="https://pantry-tracker-saad-c2lurmru2-saad-ahmed-ranas-projects.vercel.app/"              
             />
           </Col>
 
@@ -85,15 +83,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ML}
-              alt="Saad Ahmed Rana"
-              isBlog={false}
-              title="Deep-Q Learning"
-              description="
-Deep Q-Learning Performance
-
-In this project, a Deep Q-Learning (DQN) agent is trained to control a lunar lander, a simulated spacecraft that must land safely on the moon's surface. The graph shows the agent's learning progress: rewards increase and losses decrease over time as it improves its landing strategy. Initially struggling, the agent refines its approach, leading to better performance."
-              ghLink="https://drive.google.com/file/d/1SPaimHEW7IZEbhgiWQljrgJGrNd5OZXZ/view?usp=drive_link"
+                imgPath={openCV}
+                alt="Saad Ahmed Rana"
+                isBlog={false}
+                title="Computer Vision"
+                description="This is a hand detection and tracking module that counts the number of fingers open for any number of hands on the stream. The project is being extended to detect sign language gestures for making a sign to speech model."
+                ghLink="https://drive.google.com/drive/folders/1MkFPLrYuMmITa5wryXUymGWyD_lU5MKk?usp=drive_link"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
