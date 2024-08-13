@@ -8,6 +8,7 @@ import MATLAB from "../../Assets/Projects/MATLAB.png";
 import UAV from "../../Assets/Projects/UAV.jpg";
 import ROS22 from "../../Assets/Projects/ROS22.png";
 import openCV from "../../Assets/Projects/openCV.png";
+import Confide from "../../Assets/Projects/Confide.png"; // Add the import for the new image
 
 function Projects() {
   return (
@@ -75,7 +76,7 @@ function Projects() {
               alt="Saad Ahmed Rana"
               isBlog={false}
               title="Path planning in ROS2"
-              description="This project plans the trajectory of a robot URDF model for doemstic robot as it picks up objetcs and places to a predecided place. moveIT is used in ROS2 to visualize in cartesian coordinates and then the code runs the simulation in quaternion coordinates in the background. "
+              description="This project plans the trajectory of a robot URDF model for domestic robot as it picks up objects and places them in a pre-decided place. moveIT is used in ROS2 to visualize in cartesian coordinates and then the code runs the simulation in quaternion coordinates in the background. "
               ghLink="https://drive.google.com/drive/folders/1slVHcb_GYZP8J9f-uVvBsdKfZLr8xg6w"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -87,9 +88,23 @@ function Projects() {
                 alt="Saad Ahmed Rana"
                 isBlog={false}
                 title="Computer Vision"
-                description="This is a hand detection and tracking module that counts the number of fingers open for any number of hands on the stream. The project is being extended to detect sign language gestures for making a sign to speech model."
+                description="This is a hand detection and tracking module that counts the number of fingers open for any number of hands on the stream. The project is being extended to detect sign language gestures for making a sign-to-speech model."
                 ghLink="https://drive.google.com/drive/folders/1MkFPLrYuMmITa5wryXUymGWyD_lU5MKk?usp=drive_link"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Confide} // Add the image for the new project
+              alt="Saad Ahmed Rana"
+              isBlog={false}
+              title="Confide"
+              description="Confide is a chatbot that simulates a friend, providing support during both good and challenging times. Built with Python and the `cleverbotfreeapi`, it features a user-friendly interface using HTML, CSS, and JavaScript."
+              ghLink="https://github.com/saadahmedrana/confide" // Add the GitHub link
+              // demoLink="https://example.com" // Add a demo link if available
             />
           </Col>
         </Row>
