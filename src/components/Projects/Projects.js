@@ -39,7 +39,7 @@ function Projects() {
              alt="Saad Ahmed Rana"
              isBlog={false}
              title="Voice activated Robot"
-             description="This project features a voice-controlled robot model that uses ROS2 and the Alexa Skills Kit (ASK) SDK. The project aims at domesticating robots by making them easier to navigate and control. "
+             description="This project features a voice-controlled robot that uses ROS2 and the Alexa Skills Kit (ASK) SDK. The project aims at domesticating robots by making them easier to navigate and control. "
              ghLink="https://drive.google.com/drive/folders/1slVHcb_GYZP8J9f-uVvBsdKfZLr8xg6w?usp=drive_link"   
               //demoLink="https://blogs.soumya-jit.tech/"
             />
