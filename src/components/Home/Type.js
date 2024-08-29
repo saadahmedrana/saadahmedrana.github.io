@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "SWE Fellow @ Headstarter AI",
-          "Industrial Mechatronics Engineer",
-          "Finland Scholor @ Aalto university",
+          "Experienced Mechantronics Engineer",
+          "Finland Scholar @ Aalto university",
         ],
         autoStart: true,
         loop: true,
