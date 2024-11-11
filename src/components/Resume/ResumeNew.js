@@ -24,10 +24,10 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px" }} 
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Full CV
           </Button>
         </Row>
 
@@ -45,7 +45,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Full CV
           </Button>
         </Row>
       </Container>

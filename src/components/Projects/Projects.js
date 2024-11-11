@@ -41,7 +41,7 @@ function Projects() {
              isBlog={false}
              title="Voice activated Robot"
              description="This project features a voice-controlled robot that uses ROS2 and the Alexa Skills Kit (ASK) SDK. The project aims at domesticating robots by making them easier to navigate and control. "
-             ghLink="https://drive.google.com/drive/folders/1slVHcb_GYZP8J9f-uVvBsdKfZLr8xg6w?usp=drive_link"   
+             ghLink="https://www.linkedin.com/posts/saadahmedrana_ros2-aws-alexaskillskit-activity-7215795566906122241-edSQ?utm_source=share&utm_medium=member_desktop"   
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -53,8 +53,8 @@ function Projects() {
              isBlog={false}
              title="Inventory Management System"
              description="Pantry Tracker is an intuitive inventory management system built with ReactJS and deployed on Vercel. This app leverages Firebase for backend data storage, enabling users to effortlessly add, track, and adjust pantry items."
-             ghLink="https://pantry-tracker-saad-c2lurmru2-saad-ahmed-ranas-projects.vercel.app"
-             demoLink="https://pantry-tracker-saad-c2lurmru2-saad-ahmed-ranas-projects.vercel.app/"              
+             ghLink="https://www.linkedin.com/posts/saadahmedrana_headstarterai-inventorymanagement-pantrytracker-activity-7225850567825231872-u4kJ?utm_source=share&utm_medium=member_desktop"
+             demoLink="https://www.linkedin.com/posts/saadahmedrana_headstarterai-inventorymanagement-pantrytracker-activity-7225850567825231872-u4kJ?utm_source=share&utm_medium=member_desktop"              
             />
           </Col>
 
@@ -103,7 +103,7 @@ function Projects() {
               isBlog={false}
               title="Confide"
               description="Confide is a chatbot that simulates a friend, providing support during both good and challenging times. Built with Python and the `cleverbotfreeapi`, it features a user-friendly interface using HTML, CSS, and JavaScript."
-              ghLink="https://github.com/saadahmedrana/confide" // Add the GitHub link
+              ghLink="https://www.linkedin.com/posts/saadahmedrana_python-javascript-css-activity-7228653184397844481-4zaX?utm_source=share&utm_medium=member_desktop" // Add the GitHub link
               // demoLink="https://example.com" // Add a demo link if available
             />
           </Col>
