@@ -333,7 +333,7 @@ const selectedWork = [
                 Requirements-to-logic · Digital twins
               </p>
               <h1 className={`max-w-6xl text-[clamp(3rem,8vw,7.6rem)] ${displayClass}`}>
-                Building smarter ways to design, validate, and control machines.
+                Building smarter ways to design, validate, and automate engineering systems.
               </h1>
               <div className="mt-10 flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
                 <p className="max-w-4xl text-xl leading-8 text-black/65 sm:text-2xl sm:leading-9">
@@ -759,7 +759,7 @@ function SectionLanguages({ headingClass }) {
       <div className="grid gap-4 md:grid-cols-3">
         {[
           { language: "English", level: "Proficient" },
-          { language: "Finnish", level: "11 credits completed · still learning" },
+          { language: "Finnish", level: "11 credits completed. Learning daily. " },
           { language: "Urdu", level: "Native" },
         ].map((item) => (
           <article
